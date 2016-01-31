@@ -206,7 +206,9 @@ $(document).ready(function() {
                   { src: "./img/kahlifa1.jpg" },//MAIN BACKGROUND
                   { src: "./img/ABH/Industrie/audi1.jpg" },//PROJECT 1
                   { src: "./img/ABH/Hotels/meridien1.jpg" },//PROJECT 2
-                  { src: "./img/ABH/Büro/br1.png" } //PROJECT 3
+                  { src: "./img/ABH/Buero/br1.png" }, //PROJECT 3
+                  { src: "./img/ABH/einkaufszentren/karstadt1.jpg" }, //PROJECT 4
+
                 ],
                 delay: 7000,
                 cover: false,
@@ -220,7 +222,8 @@ $(document).ready(function() {
                 { src: "./img/kahlifa2.jpg" },//MAIN BACKGROUND
                 { src: "./img/ABH/Industrie/audi2.jpg" },//PROJECT 1
                 { src: "./img/ABH/Hotels/meridien3.jpg" },//PROJECT 2
-                { src: "./img/ABH/Büro/br2.png" } //PROJECT 3
+                { src: "./img/ABH/Buero/br2.png" }, //PROJECT 3
+                { src: "./img/ABH/einkaufszentren/karstadt2.jpg" }, //PROJECT 4
                 ],
                 delay: 7000,
                 cover:false,
@@ -318,20 +321,6 @@ $(document).ready(function() {
             }
         });
     });
-    $('.projects-link-4').on("click", function(e) {
-        if (nodoubleclick) return;
-        nodoubleclick = true;
-        e.preventDefault();
-        $('.section-one').fadeOut( 650, function(){
-            $('.section-five').addClass('active-section');
-            $('.section-five').hide().fadeIn(850);
-            if ($(window).width() >= 991) {
-            $('#left4').vegas('options', 'transition', 'slideLeft2').vegas('jump',3);//PROJECT 3
-            $('#right4').vegas('options', 'transition', 'slideRight2').vegas('jump',3);//PROJECT 3
-            }
-        });
-    });
-
     $('.close-projects').on("click", function(e) {
         nodoubleclick = false;
         e.preventDefault();
@@ -343,6 +332,19 @@ $(document).ready(function() {
             $('#right4').vegas('options', 'transition', 'slideRight2').vegas('jump',0);//MAIN BACKGROUND
             }
         });
+        $('.projects-link-4').on("click", function(e) {
+        if (nodoubleclick) return;
+        nodoubleclick = true;
+        e.preventDefault();
+        $('.section-one').fadeOut( 650, function(){
+            $('.section-five').addClass('active-section');
+            $('.section-five').hide().fadeIn(850);
+            if ($(window).width() >= 991) {
+            $('#left4').vegas('options', 'transition', 'slideLeft2').vegas('jump',4);//PROJECT 4
+            $('#right4').vegas('options', 'transition', 'slideRight2').vegas('jump',4);//PROJECT 4
+            }
+        });
+    });
     });var nodoubleclick = false;
 
     //BIGTEXT
