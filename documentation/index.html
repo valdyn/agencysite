@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>ARD Documentation</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Description">
+        <meta name="author" content="" >
+    
+        <!-- loading the css -->
+        <link href="assets/css/bootstrap.css" rel="stylesheet">
+        <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+            <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+
+        <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+        
+        <style type="text/css">
+        body {
+            padding-bottom: 40px;
+        }
+        
+        section {padding: 60px 0 0 0;}
+        </style>
+        
+        <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    
+        <!--(Favicon) -->
+        <link rel="shortcut icon" href="assets/img/favicon.ico">
+        
+    </head>
+    
+    
+        
+    <body data-spy="scroll" data-target=".navbar" id="top">
+    
+        <!-- ========================= NAVIGATION BAR >> START ========================= -->
+        <div class="navbar navbar-fixed-top navbar-inverse">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> 
+                    <a class="brand" href="#overview">ARD</a>
+                    <div class="nav-collapse">
+                        <ul class="nav">
+                            <li><a href="#overview">Overview</a></li>
+                            <li><a href="#markup">Markup</a></li>
+                            <li><a href="#styles">Styles</a></li>
+                            <li><a href="#javascript">JavaScript</a></li>
+                            <li><a href="#images">Images</a></li>
+                            <li><a href="#php">PHP</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ========================= NAVIGATION BAR >> END ========================= -->
+    
+    
+    
+        <!-- ========================= MAIN CONTAINER >> START ========================= -->
+        <div class="container">
+        
+            <!-- ========================= SECTION: OVERVIEW >> START ========================= -->
+            <section id="overview">
+            
+                <div class="hero-unit">
+                    <h1>ARD Documentation</h1>
+                 <br>
+                 <br>
+                    <p class="well well-small">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/RafavaThemes">here</a>. Thanks you so much!</p>
+                </div>
+                
+                <hr>
+                
+                <div class="row-fluid">
+                    <div class="span4">
+                        <table width="100%">
+                            <tr>
+                                <td>Author:</td>
+                                <td>RafavaThemes</td>
+                            </tr>
+                            <tr>
+                                <td>Contact:</td>
+                                <td><a href="mailto:rafavathemes@gmail.com">rafavathemes@gmail.com</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="span4">
+                        <table width="100%">
+                            <tr>
+                                <td>Author URL:</td>
+                                <td><a href="http://themeforest.net/user/RafavaThemes">Link</a></td>
+                            </tr>
+                            <tr>
+                                <td>Item URL:</td>
+                                <td><a href="http://themeforest.net/item/ard-architect-html-template/13679222">Link</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="span4">
+                        <table width="100%">
+                            <tr>
+                                <td>Current Version:</td>
+                                <td>1.1</td>
+                            </tr>
+                            <tr>
+                                <td>Documentation Version</td>
+                                <td>1.1</td>
+                            </tr>
+                        </table>
+                    </div>
+                  
+                </div>
+                
+                <hr>
+                
+            </section>
+            <!-- ========================= SECTION: OVERVIEW >> END ========================= -->
+
+
+          
+            <!-- ========================= SECTION: MARKUP >> START ========================= -->
+            <section id="markup">
+              
+                <div class="page-header">
+                    <h1>Markup</h1>
+                </div>
+            
+         
+                <div class="row">
+                <div class="span3">
+                        <h3>General structure.</h3>
+                        <p></p>
+                </div>
+                <div class="span9"> 
+
+<!-- Code Block >> Start -->                   
+<pre class="prettyprint linenums">
+&#x3C;!DOCTYPE html&#x3E;
+&#x3C;html lang=&#x22;en&#x22;&#x3E;
+  
+  &#x3C;head&#x3E;
+    
+    &#x3C;meta charset=&#x22;UTF-8&#x22;&#x3E;
+    ---
+
+  &#x3C;/head&#x3E;
+
+&#x3C;body&#x3E;
+
+    &#x3C;!-- LOADER --&#x3E;
+    &#x3C;div class=&#x22;loader-background&#x22;&#x3E;
+    ---
+    &#x3C;/div&#x3E;&#x3C;!-- END LOADER --&#x3E;
+
+    &#x3C;!-- MAIN-CONTAINER --&#x3E;
+    &#x3C;div class=&#x22;main-container&#x22;&#x3E;
+
+        &#x3C;div class=&#x22;menu-left&#x22;&#x3E;
+        --
+        &#x3C;/div&#x3E;
+
+        &#x3C;div class=&#x22;updown-navigation&#x22;&#x3E;
+        --
+        &#x3C;/div&#x3E;
+
+        &#x3C;!-- MS-LEFT --&#x3E;
+        &#x3C;div class=&#x22;ms-left&#x22;&#x3E;
+
+            &#x3C;div class=&#x22;ms-section&#x22; id=&#x22;left1&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+
+            &#x3C;div class=&#x22;ms-section&#x22; id=&#x22;left2&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+        
+            &#x3C;div class=&#x22;ms-section&#x22; id=&#x22;left3&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+        
+            &#x3C;div class=&#x22;ms-section&#x22; id=&#x22;left4&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+        
+            &#x3C;div class=&#x22;ms-section&#x22; id=&#x22;left5&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+
+            &#x3C;div class=&#x22;ms-section&#x22; id=&#x22;left6&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+    
+        &#x3C;/div&#x3E; &#x3C;!-- MS-LEFT --&#x3E;
+        
+        &#x3C;!-- MS-RIGHT --&#x3E;
+        &#x3C;div class=&#x22;ms-right&#x22;&#x3E;
+
+            &#x3C;div class=&#x22;ms-section&#x22; id=&#x22;right1&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+
+            &#x3C;div class=&#x22;ms-section&#x22; id=&#x22;right2&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+        
+            &#x3C;div class=&#x22;ms-section&#x22; id=&#x22;right3&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+        
+            &#x3C;div class=&#x22;ms-section&#x22; id=&#x22;right4&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+        
+            &#x3C;div class=&#x22;ms-section&#x22; id=&#x22;right5&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+
+            &#x3C;div class=&#x22;ms-section&#x22; id=&#x22;right6&#x22;&#x3E;
+            ---
+            &#x3C;/div&#x3E;
+    
+        &#x3C;/div&#x3E; &#x3C;!-- END MS-RIGHT --&#x3E;
+           
+    &#x3C;/div&#x3E; &#x3C;!-- END MAIN-CONTAINER --&#x3E;
+       
+
+    &#x3C;script type=&#x22;text/javascript&#x22; src=&#x22;js/jquery-2.1.3.min.js&#x22;&#x3E;&#x3C;/script&#x3E;
+    ---
+
+&lt;/body&gt;
+&lt;/html&gt;
+
+</pre>
+                 
+                </div>
+                </div>
+            
+            </section>
+            <!-- ========================= SECTION: MARKUP >> END ========================= -->
+            
+
+            <!-- ========================= SECTION: STYLES >> START ========================= -->
+            <section id="styles">
+               
+                <div class="page-header">
+                    <h1>Styles <small>Styles customization</small></h1>
+                </div>
+            
+     
+                <div class="row">
+                <div class="span3">
+                        <h3>Stylesheets</h3>
+                        <p>Here's a list of the stylesheet files I'm using with this template</p>
+                </div>
+                <div class="span9">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>File Name</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>bootstrap.min.css</code></td>
+                                    <td>The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>ionicons.min.css</code></td>
+                                    <td>Scalable vector icons.</td>
+                                </tr>
+                                 <tr>
+                                    <td><code>styles.css</code></td>
+                                    <td>Customized css.</td>
+                                </tr>
+                                 <tr>
+                                    <td><code>vegas.css</code></td>
+                                    <td>Vegas is a jQuery/Zepto plugin to add beautiful backgrounds and Slideshows to DOM elements.</td>
+                                </tr>
+                                   <tr>
+                                    <td><code>magnific-popup.css</code></td>
+                                    <td>Magnific Popup is a responsive lightbox & dialog script with focus on performance and providing best experience for user with any device.</td>
+                                </tr>
+                                 <tr>
+                                    <td><code>owl.carousel.css</code></td>
+                                    <td> Touch enabled jQuery plugin that lets you create beautiful responsive carousel slider.</td>
+                                </tr>         
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <hr />
+                <br>
+                
+                <div class="row">
+                <div class="span3">
+                        <h3>CSS Structure</h3>
+                        <p><code>styles.css</code> contains all of the specific stylings for the page. The file is separated into sections using:</p>
+                </div>
+                <div class="span9">
+                    
+<!-- Code Block >> Start -->                   
+<pre class="pre-scrollable prettyprint linenums">
+/* ==================================================================
+                               ABOUT
+================================================================== */
+
+some code
+
+/* ==================================================================
+                               DESIGN
+================================================================== */
+
+some code
+
+/* ==================================================================
+                              PROJECTS
+================================================================== */
+
+some code
+
+etc...
+</pre>
+<!-- Code Block >> End -->                   
+
+                </div>
+                </div>
+
+            </section>
+            <!-- ========================= SECTION: STYLES >> END ========================= -->
+            
+            
+            
+            <!-- ========================= SECTION: JAVASCRIPT >> START ========================= -->
+            <section id="javascript">
+            
+                <div class="page-header">
+                    <h1>JavaScript <small>JavaScript customization </small></h1>
+                </div>
+                
+                <div class="row">
+                   
+                    <div class="span3">
+                        <h3>JavaScript Files</h3>
+                        <p>Here's a list of the stylesheet files I'm using with this template:</p>
+                    </div>
+                   
+                    <div class="span9">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Tag</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                               <tr>
+                                    <td><code>bigtext.js</code></td>
+                                    <td>jQuery plugin, calculates the font-size and word-spacing needed to match a line of text to a specific width.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>jquery-2.1.4.min.js</code></td>
+                                    <td>jQuery is a Javascript library that greatly reduces the amount of code that you must write.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>jquery.multiscroll.js</code></td>
+                                    <td>Create full screen pages with two scrolling sections per page.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>jqBootstrapValidation.js</code></td>
+                                    <td>A JQuery validation plugin for bootstrap contact forms.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>vegas.js</code></td>
+                                    <td>Vegas is a jQuery/Zepto plugin to add beautiful backgrounds and Slideshows to DOM elements.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>bootstrap.min.js</code></td>
+                                    <td>Bootstrap javascript</td>
+                                </tr>
+                                <tr>
+                                    <td><code>jquery.magnific-popup.min.js</code></td>
+                                    <td>Magnific Popup is a responsive lightbox & dialog script with focus on performance and providing best experience for user with any device.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>owl.carousel.js</code></td>
+                                    <td>Touch enabled jQuery plugin that lets you create beautiful responsive carousel slider.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>pace.js</code></td>
+                                    <td>Pace is a Javascript and CSS library to automatically add beautiful progress and activity indicators for page loads</td>
+                                </tr>
+                                <tr>
+                                    <td><code>main.js</code></td>
+                                    <td>Customized javascript</td>
+                                </tr>
+                                   <tr>
+                                    <td><code>easing.js</code></td>
+                                    <td> jQuery plugin to give advanced easing options.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                   <div class="row">
+                <div class="span3">
+                        <h3>Multiscroll.js</h3>
+                        <p>If we want four sections we have to set multiscroll plugin <code>main.js</code> like this :</p>
+                </div>
+                <div class="span9">
+                    
+<!-- Code Block >> Start -->                   
+<pre class="pre-scrollable prettyprint linenums">
+
+   $('#main-container').multiscroll({
+        sectionsColor: ['white','white','white','white'],
+        anchors: ['first','second','third','fourth']
+        ...
+
+</pre>
+<!-- Code Block >> End -->                   
+
+                </div>
+                </div>
+
+                
+            </section>
+            <!-- ========================= SECTION: JAVASCRIPT >> END ========================= -->
+
+
+
+            <!-- ========================= SECTION: JAVASCRIPT >> START ========================= -->
+            <section id="images">
+            
+                <div class="page-header">
+                    <h1>Images <small>Images customization </small></h1>
+                </div>
+                
+                <div class="row">        
+                <div class="span3">
+                        <h3>Home Menu Carousel</h3>
+                        <p>Open up the file <code> index.html</code> go to <code>home-img</code> and change <code>'carousel-background.jpg'</code></p>
+                </div>
+                <div class="span9">
+                   
+<!-- Code Block >> Start -->                   
+<pre class="prettyprint js linenums:111">
+
+&#x3C;div id=&#x22;home-carousel&#x22;&#x3E;
+
+    &#x3C;div class=&#x22;home-img&#x22; style=&#x22;background-image:url(img/carousel-background.jpg)&#x22;&#x3E;&#x3C;/div&#x3E;
+
+    ...
+
+&#x3C;/div&#x3E;
+
+</pre>
+<!-- Code Block >> End --> 
+                  
+                </div>
+                </div>
+                                   
+                    <div class="row">  
+                    <div class="span3">
+                        <h3>Team</h3>
+                        <p>Open up the file <code> index.html</code> and change <code>'background.jpg'</code> and <code>'image.jpg'</code></p>
+                    </div>
+                    <div class="span9">
+                   
+<!-- Code Block >> Start -->                   
+<pre class="prettyprint js linenums:165">
+&#x3C;div id=&#x22;about-popup&#x22;&#x3E;
+
+    &#x3C;div class=&#x22;team-background&#x22; style=&#x22;background-image:url(img/background.jpg)&#x22;&#x3E;&#x3C;/div&#x3E;
+
+    &#x3C;div class=&#x22;team-image&#x22; style=&#x22;background-image:url(img/image.jpg)&#x22;&#x3E;&#x3C;/div&#x3E;
+
+&#x3C;/div&#x3E;
+</pre>
+<!-- Code Block >> End --> 
+                  
+                    </div>
+                    </div>
+                    
+                    <div class="row">  
+                    <div class="span3">
+                        <h3>Design carousel</h3>
+                        <p>Open up the file <code> index.html</code> and change <code>'background.jpg'</code>.Same image in both <code>href and style</code></p>
+                    </div>
+                    <div class="span9">
+                   
+<!-- Code Block >> Start -->                   
+<pre class="prettyprint js linenums:218">
+&#x3C;div id=&#x22;design-carousel&#x22;&#x3E;
+
+    &#x3C;a class=&#x22;design-popup-link mfp-fade&#x22; href="img/background.jpg"&#x3E;
+    
+        &#x3C;div class=&#x22;design-img&#x22; style="background-image:url(img/background.jpg)"&#x3E;&#x3C;/div&#x3E;
+    
+    &#x3C;/a&#x3E;
+
+    ...
+
+&#x3C;/div&#x3E;
+</pre>
+<!-- Code Block >> End --> 
+                  
+                    </div>
+                    </div>
+
+                                    <div class="row">  
+                <div class="span3">
+                        <h3>Section Background</h3>
+                        <p>Open up the file <code> main.js</code> <br>go to <code>function sectionimage</code> and change <code>'background-left.jpg'</code>and <code>'background-right.jpg'</code></p>
+                </div>
+                <div class="span9">
+                   
+<!-- Code Block >> Start -->                   
+<pre class="prettyprint js linenums:123">
+$("#left2").vegas({
+    slides: [
+    { src:  "./img/background-left.jpg"  },//MAIN BACKGROUND
+    ],
+    delay: 7000,
+    cover:false,
+    align:'right',
+    timer:false,
+    animation: [ 'kenburns' ]
+});
+</pre>
+<!-- Code Block >> End --> 
+                  
+                </div>
+                </div>
+
+                   <div class="row">  
+                <div class="span3">
+                        <h3>Section Projects</h3>
+                        <p>Open up the file <code> main.js</code> <br>go to <code>function sectionimage</code> and change <code>'background-left.jpg'</code>and <code>'background-right.jpg'</code></p>
+                </div>
+                <div class="span9">
+                   
+<!-- Code Block >> Start -->                   
+<pre class="prettyprint js linenums:123">
+$("#left4").vegas({
+    slides: [
+    { src: "./img/background-left.jpg" },//MAIN BACKGROUND
+    { src: "./img/background-left.jpg" },//PROJECT 1
+    { src: "./img/background-left.jpg" },//PROJECT 2
+    { src: "./img/background-left.jpg" } //PROJECT 3
+    ],
+    delay: 7000,
+    cover:false,
+    autoplay:false,
+    align:'right',
+    timer:false,
+    animation: [ 'kenburns' ]
+});
+</pre>
+<!-- Code Block >> End --> 
+                  
+                </div>
+                </div>
+         
+                    <div class="row">  
+                    <div class="span3">
+                        <h3>Mobile background</h3>
+                        <p>Open up the file <code> styles.css</code> and change <code>'background.jpg'</code></p>
+                        <a class="design-popup-link" href="assets/img/mobile.jpg">What's this?</a>
+                    </div>
+                    <div class="span9">
+                   
+<!-- Code Block >> Start -->                   
+<pre class="prettyprint js linenums:1466">
+&#x22;.ms-right #right2&#x22;{
+
+  background-image: url("../img/background.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+       -webkit-background-size: cover;
+          -moz-background-size: cover;
+           -ms-background-size: cover;
+            -o-background-size: cover;
+               background-size: cover;
+   
+}
+</pre>
+<!-- Code Block >> End --> 
+                    </div>
+                    </div>
+
+                    <p>For splitting in two the images, you can use an image editor like photoshop or gimp. You can also use an online editor like <a href="http://imagesplitter.net/">http://imagesplitter.net/</a></p>
+
+                    <p>If you want to compress your images for a better performance you can use this tool <a href="https://compressor.io/">compressor.io</a></p>
+                  
+                  
+            </section>
+            <!-- ========================= SECTION: JAVASCRIPT >> END ========================= -->
+
+
+
+            <!-- ========================= SECTION: PHP >> START ========================= -->
+            <section id="php">
+            
+                <div class="page-header">
+                    <h1>PHP <small>PHP customization</small></h1>
+                </div>
+                          
+                    <div class="row">
+                    <div class="span3">
+                        <h3>Contact form</h3>
+                        <p>Open up the file mailer.php and replace <code>youremail</code> with your email to receive messages from the contact form.</p>
+                    </div>
+                    <div class="span9">
+                    
+<!-- Code Block >> Start -->                   
+<pre class="prettyprint js linenums:103">
+&#x3C;?php
+if(empty($_POST[&#x27;name&#x27;])   ||   
+    empty($_POST[&#x27;email&#x27;])  ||
+    empty($_POST[&#x27;message&#x27;])||  
+    !filter_var($_POST[&#x27;email&#x27;],FILTER_VALIDATE_EMAIL))   
+  {    
+       echo &#x22;No arguments Provided!&#x22;;   return false;   
+  }
+     
+  $name = $_POST[&#x27;name&#x27;];
+  $email_address = $_POST[&#x27;email&#x27;];
+  $message = $_POST[&#x27;message&#x27;];     
+
+ $to = &#x27;youremail&#x27;;
+
+ $email_subject = &#x22;Contact form submitted by:  $name&#x22;; $email_body = &#x22;You have received a new message. \n\n&#x22;.                
+                   &#x22; Here are the details:\n \nName: $name \n &#x22;.                 
+                   &#x22;Email: $email_address\n Message \n $message&#x22;;
+ $headers = &#x22;From: noreply@youremail.com\n&#x22;;
+ $headers .= &#x22;Reply-To: $email_address&#x22;;    
+ 
+ mail($to,$email_subject,$email_body,$headers); return true;            
+?&#x3E;</pre>
+<!-- Code Block >> End --> 
+                  
+                    </div>
+                    </div>
+
+            </section>
+
+
+            <!-- ========================= SECTION: PHP >> END ========================= -->
+
+            <hr />
+
+                <div class="row">  
+                    <div class="span3">
+                        <h3>Changelog</h3>
+                        <p>Changes made in  <code>ARD - Architect </code></p>
+                    </div>
+                    <div class="span9">
+                   
+<!-- Code Block >> Start -->                   
+<pre class="prettyprint js ">
+11/12/2015 Version 1.1 - Fixed console error (multiscroll.js)
+                       - Delete empty css link (multiscroll.css)
+                       - Minor css and js changes
+                       - Avoid double click projects links                      
+</pre>
+<!-- Code Block >> End --> 
+                  
+                    </div>
+                    </div>
+    <hr />
+            <div class="goodbye">
+                <p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist.</p>
+            </div>
+        
+            <hr />
+        
+            <footer>
+                <p>RafavaThemes &copy;</p>
+            </footer>
+            
+        </div>
+        <!-- ========================= MAIN CONTAINER >> END ========================= -->
+
+        <!-- loading javascripts -->
+        <script src="assets/js/jquery.js"></script> 
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/google-code-prettify/prettify.js"></script>
+        
+        <!-- init javascripts -->
+        <script src="assets/js/init.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script>
+
+        $('.design-popup-link').magnificPopup({
+        type:'image'
+        });
+    
+        </script>
+    
+    </body>
+    
+</html>
