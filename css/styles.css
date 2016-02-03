@@ -217,12 +217,12 @@ p,i {
 
 .loader-frame {
 
-    width: 130px;
-    height: 130px;
+    width: 809px;
+    height: 35px;
     margin: 0 auto;
     border: 6px solid #FEECB3;
     vertical-align: middle;
-    background-image: url("../img/image.jpg");  
+    background-image: url("./img/ABH/LogoABH.jpg");  
     background-repeat: no-repeat;
     background-position: center center;
    -webkit-background-size: cover;
