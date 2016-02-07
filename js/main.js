@@ -207,6 +207,7 @@ $(document).ready(function() {
                   { src: "./img/ABH/Industrie/audi1.jpg" },//PROJECT 1
                   { src: "./img/ABH/Hotels/meridien1.jpg" },//PROJECT 2
                   { src: "./img/ABH/Buero/br1.png" }, //PROJECT 3
+                  { src: "./img/ABH/Buero/compaq1.jpg" }, //PROJECT 4
                 ],
                 delay: 7000,
                 cover: false,
