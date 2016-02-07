@@ -142,7 +142,8 @@ p,i {
 
 .section-two,
 .section-three,
-.section-four {
+.section-four, 
+.section-five {
 
     display: none;
 
