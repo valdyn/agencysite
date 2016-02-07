@@ -318,6 +318,20 @@ $(document).ready(function() {
             }
         });
     });
+    $('.projects-link-4').on("click", function(e) {
+        if (nodoubleclick) return;
+        nodoubleclick = true;
+        e.preventDefault();
+        $('.section-one').fadeOut( 650, function(){
+            $('.section-five').addClass('active-section');
+            $('.section-five').hide().fadeIn(850);
+            if ($(window).width() >= 991) {
+            $('#left4').vegas('options', 'transition', 'slideLeft2').vegas('jump',4);//PROJECT 3
+            $('#right4').vegas('options', 'transition', 'slideRight2').vegas('jump',4);//PROJECT 3
+            }
+        });
+    });
+
     $('.close-projects').on("click", function(e) {
         nodoubleclick = false;
         e.preventDefault();
