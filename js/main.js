@@ -204,9 +204,9 @@ $(document).ready(function() {
             $("#left4").vegas({
                 slides: [
                     { src: "./img/kahlifa1.jpg" },//MAIN BACKGROUND
-                    { src: "./img/ABH/Industrie/audi1.jpg" },//PROJECT 1
-                    { src: "./img/ABH/Hotels/meridien1.jpg" },//PROJECT 2
-                    { src: "./img/ABH/Buero/br1.png" }, //PROJECT 3
+                    { src: "./img/ABH/industrie/audi1.jpg" },//PROJECT 1
+                    { src: "./img/ABH/hotels/meridien1.jpg" },//PROJECT 2
+                    { src: "./img/ABH/buero/br1.png" }, //PROJECT 3
                     { src: "./img/ABH/einkaufszentren/karstadt1.jpg" }, //PROJECT 4
                     { src: "./img/ABH/wohnungsbau/hofmann1.jpg" }, //PROJECT 5
                 ],
@@ -220,9 +220,9 @@ $(document).ready(function() {
             $("#right4").vegas({
                 slides: [
                     { src: "./img/kahlifa2.jpg" },//MAIN BACKGROUND
-                    { src: "./img/ABH/Industrie/audi2.jpg" },//PROJECT 1
-                    { src: "./img/ABH/Hotels/meridien3.jpg" },//PROJECT 2
-                    { src: "./img/ABH/Buero/br2.png" }, //PROJECT 3
+                    { src: "./img/ABH/industrie/audi2.jpg" },//PROJECT 1
+                    { src: "./img/ABH/hotels/meridien3.jpg" },//PROJECT 2
+                    { src: "./img/ABH/buero/br2.png" }, //PROJECT 3
                     { src: "./img/ABH/einkaufszentren/karstadt2.jpg" }, //PROJECT 4
                     { src: "./img/ABH/wohnungsbau/hofmann2.jpg" }, //PROJECT 5
 
